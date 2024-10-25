@@ -1,0 +1,35 @@
+{
+  "name": "the-exit-warpcast",
+  "version": "1.0.0",
+  "description": "A text-based decision game implemented as a Farcaster frame",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "farcaster",
+    "frame",
+    "game",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@farcaster/auth-kit": "^0.6.0",
+    "@farcaster/core": "^0.15.5",
+    "next": "^15.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^15.0.1",
+    "typescript": "^5.6.3"
+  }
+}
